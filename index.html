@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictionery</title>
-    <link rel="stylesheet" href="dictionery.css">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
-        <h1>Test Your Ability Here</h1>
+        <div class="header">
+            <div class="logoContainer">
+                <img src="logo.png" alt="" class="logo">
+            </div>
+            <div class="mainHeading">
+                <h1>Brain Booster</h1>
+            </div>
+            
+        </div>
+        
         <div id="task">
             <h2 id="question">Question</h2>
-            <div id="buttons">
-                <button id="btn">Answer1</button>
-                <button id="btn">Answer2</button>
-                <button id="btn">Answer3</button>
-                <button id="btn">Answer4</button>
-            </div>
+            <div><ol id="buttons">
+                <li>Answer1</li>
+                <li>Answer2</li>
+                <li>Answer3</li>
+                <li>Answer4</li>
+            </ol></div>
             <button id="next">Next</button>
         </div>
         

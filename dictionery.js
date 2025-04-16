@@ -1,6 +1,0 @@
-// const questions = [
-//     {
-//         ques : ,
-//         amswer : [{}],
-//     }
-// ]
